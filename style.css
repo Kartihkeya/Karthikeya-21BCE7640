@@ -1,0 +1,132 @@
+body{
+    background-image: url(bg.png);
+}
+.Name{
+    color: white;
+    font-size: 270%;
+    text-align: center;
+    font-family:monospace;
+    background-color: black;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+#me{
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+}
+#About{
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 150%;
+    font-family: sans-serif;
+}
+#Menu{
+    text-align: center;
+    font-size: 50%;
+    font-family: sans-serif;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border:2px solid white;
+    padding: 5px;
+    border-radius: 8px;
+}
+#Education,ul{
+    text-align: center;
+    font-size: 150%;
+    font-family: sans-serif;
+    color: rgb(68, 68, 68);
+    list-style-type: none;
+}
+img{
+    border:5px solid oldlace;
+
+}
+.Skills{
+    text-align: center;
+    color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    font-size: 150%;
+    word-spacing: 60px;
+}
+.HTML,.CSS,.Figma,.Python{
+    border: none;
+}
+abbr{
+    text-decoration: none;
+}
+.contact{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.form-group{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.form-group input,.form-group textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+textarea{
+    resize: vertical;
+}
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+}
+button[type="submit"]:hover{
+    background-color: black;
+    color: white;
+}
+#Share{
+    font-size: 150%;
+    font-family: sans-serif;
+    text-align: center;
+}
+#contact{
+    font-size: 150%;
+    font-family: sans-serif;
+    text-align: center;
+}
+#instagram,#github{
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    color: #000;
+}
+#instagram:hover,#github:hover{
+    background-color: black;
+    color: white;
+}
